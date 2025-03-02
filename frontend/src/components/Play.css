@@ -1,0 +1,230 @@
+.play-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f3f4f6;
+  padding: 1rem;
+}
+
+.play-card {
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  max-width: 40rem;
+  width: 100%;
+  text-align: center;
+}
+
+.play-title {
+  font-size: 1.875rem;
+  font-weight: bold;
+  color: #1f2937;
+  margin-bottom: 1rem;
+}
+
+.user-profile {
+  background-color: #dbeafe;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.user-profile p {
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+
+.clue-box {
+  background-color: #e5e7eb;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.clue-text {
+  margin-bottom: 0.5rem;
+  color: #374151;
+  font-weight: 500;
+}
+
+.options-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.option-button {
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  font-size: 1.125rem;
+  font-weight: 600;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.option-button.default {
+  background-color: #d1d5db;
+  color: #1f2937;
+}
+
+.option-button.default:hover {
+  background-color: #9ca3af;
+}
+
+.option-button.selected {
+  background-color: #2563eb;
+  color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.submit-button {
+  width: 100%;
+  background-color: #10b981;
+  color: white;
+  font-weight: bold;
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #059669;
+}
+
+.submit-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.feedback-box {
+  margin-top: 1.5rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  font-size: 1.125rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.feedback-box.correct {
+  background-color: #d1fae5;
+  color: #065f46;
+}
+
+.feedback-box.incorrect {
+  background-color: #fee2e2;
+  color: #991b1b;
+}
+
+.next-button {
+  margin-top: 1rem;
+  background-color: #3b82f6;
+  color: white;
+  font-weight: bold;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s ease;
+}
+
+.next-button:hover {
+  background-color: #2563eb;
+}
+
+.challenge-button {
+  background-color: #4caf50; /* Green */
+  color: white;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+  display: block;
+  margin: 20px auto;
+}
+
+.challenge-button:hover {
+  background-color: #45a049;
+}
+
+.challenge-button:active {
+  background-color: #3e8e41;
+}
+
+.invite-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.invite-input {
+  padding: 8px;
+  border: 2px solid #4caf50;
+  border-radius: 5px;
+  font-size: 14px;
+  width: 80%;
+  text-align: center;
+}
+
+.send-invite-button {
+  background-color: #4caf50;
+  color: white;
+  font-size: 14px;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+.send-invite-button:hover {
+  background-color: #45a049;
+}
+
+.invited-friends {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.challenge-container {
+  background: #f8f9fa;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+.challenge-btn {
+  background: #007bff;
+  color: white;
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.score-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  position: absolute;
+  top: 125px;
+  left: 45px;
+  right: 45px;
+}
+
+.score-card {
+  background: #fff;
+  padding: 10px 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  min-width: 150px;
+}

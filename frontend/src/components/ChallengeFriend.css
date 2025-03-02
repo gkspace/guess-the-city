@@ -1,0 +1,35 @@
+.challenge-container {
+    text-align: center;
+    margin: 20px auto;
+  }
+  
+  .score-card {
+    padding: 20px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    display: inline-block;
+    background: #f8f9fa;
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  
+  .challenge-btn {
+    background: #25d366;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .challenge-btn:hover {
+    background: #1ebe57;
+  }
+  
+  .preview-img {
+    margin-top: 10px;
+    width: 200px;
+    border-radius: 8px;
+  }
+  
