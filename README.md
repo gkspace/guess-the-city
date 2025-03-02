@@ -1,4 +1,4 @@
-Collecting workspace information# Globetrotter Challenge
+
 
 Globetrotter Challenge is a fun geography quiz game that tests your knowledge of famous destinations around the world. The application features a Node.js/Express backend with MongoDB for data storage and a React frontend.
 
